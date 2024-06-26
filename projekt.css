@@ -31,16 +31,8 @@
 
 #Loginbutton{
     position: relative;
-    left: 550px;
+    left: 600px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
     top: 20px;
-}
-
-#Registrierungbutton{
-    position: relative;
-    top: 20px;
-    left: 550px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;   
-    color: green;
 }

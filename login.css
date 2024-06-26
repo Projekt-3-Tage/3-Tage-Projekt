@@ -5,8 +5,12 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #141cb2;
+    background-image: url(./img/Erstes-Foto.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
 }
+
 
 .login-container {
     background: rgb(249, 249, 249);
@@ -69,8 +73,7 @@ input[type="password"] {
     margin-right: 10px;
 }
 
-.btn-login,
-.btn-google {
+.btn-login{
     width: 100%;
     padding: 10px;
     border: none;
@@ -85,10 +88,6 @@ input[type="password"] {
     margin-bottom: 10px;
 }
 
-.btn-google {
-    background-color: #4285F4;
-    color: white;
-}
 
 .footer {
     margin-top: 20px;
@@ -97,7 +96,8 @@ input[type="password"] {
 
 .forgot-password {
     display: block;
-    margin-bottom: 10px;
+    position: relative;
+    top: -10px;
     color: #666;
     text-decoration: none;
 }
